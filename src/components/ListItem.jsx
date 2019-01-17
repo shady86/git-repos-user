@@ -1,11 +1,11 @@
 import React from 'react';
 
-const GitRepo = ({ repo }) => (
+const GitRepo = ({ list }) => (
   <div className="repo">
     <h3 className="repo__name">
-      <a href={repo.html_url}>{repo.name}</a>
+      <a href={list.html_url}>{list.name}</a>
     </h3>
-    <p className="repo__description">{repo.description}</p>
+    <p className="repo__description">{list.description}</p>
   </div>
 );
 

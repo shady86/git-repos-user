@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RepoList from 'components'
+import {RepoList} from './components/RepoList'
 
 class App extends Component {
   render() {
