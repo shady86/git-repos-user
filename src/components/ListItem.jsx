@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GitRepo = ({ list }) => (
+const ListItem = ({ list }) => (
   <div className="repo">
     <h3 className="repo__name">
       <a href={list.html_url}>{list.name}</a>
@@ -9,4 +9,4 @@ const GitRepo = ({ list }) => (
   </div>
 );
 
-export default GitRepo;
+export default ListItem;
